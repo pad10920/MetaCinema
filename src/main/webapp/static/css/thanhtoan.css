@@ -1,0 +1,72 @@
+.container{
+    width: 60%;
+    margin: 50px auto;
+
+}
+table{
+    width: 100%;
+
+}
+table th{
+    font-size: 20px;
+    border: 1px solid ;
+    text-align: center;
+    height: 80px;
+
+}
+table td{
+    height: 60px;
+    font-size: 20px;
+    border: 1px solid ;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.thong-tin-mua-ve{
+    width: 60%;
+    margin: 50px auto;
+    font-weight: bold;
+}
+
+.btnThanhToan{
+    text-align: center;
+
+}
+.btnThanhToan button{
+    width: 228px;
+    height: 38px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #0a64a7 0%, #258dcf 51%, #3db1f3 100%) !important;
+    margin-top: 23px;
+
+}
+.popup-thanh-toan-thanh-cong{
+    background-color: #ffffff;
+    position: fixed;
+    width: 40%;
+    left: 30%;
+    top: 20%;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 10px;
+    z-index: 99999;
+}
+.popup-thanh-toan-thanh-cong .cls-btn{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
